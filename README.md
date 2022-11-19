@@ -1,4 +1,4 @@
-# dependency-track
+# Dependency-track
 ## Johns Hopkins University MSSI Capstone Project - Postmarket Vulnerabilities Surveillance for Medical Devices
 
 ### Table of Contents
@@ -14,7 +14,7 @@ Our project is motivated by the Johns Hopkins University MSSI program Capstone P
 - The security posture of a hospital or clinic that obtains a medical device with known vulnerabilities
 The potential users/manufacturers would enter their manufacturer names and specific product names and our program would search the specific and currently available products given such inputs, and analyze the total available on sale products numbers. Additionally, we use NVD API to concern and output potential numbers and descriptions of vulnerabilities for such products given the manufacturer names. Finally, the program utilizes CyclondDX to create the SBOM file and dependency track tool to visualize the final risk profile provided by OWASP.
 
-## File Description <a name=”"files"></a>
+## File Description <a name="files"></a>
 There are x files available here and the main file that the manufacturer needs to run is ‘dependency-track.py’
 - Git clone our project using $ gh repo clone shunyangjhu/dependency-track-jhu
 
