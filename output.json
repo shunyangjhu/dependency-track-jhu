@@ -1,0 +1,1 @@
+{"components":[{"group":"Medtronic","name":"mycarelink_smart_model_25000_firmware","cpe":"cpe:2.3:o:medtronic:mycarelink_smart_model_25000_firmware:*:*:*:*:*:*:*:*","type":"library"},{"group":"Medtronic","name":"mycarelink_smart_model_25000","cpe":"cpe:2.3:h:medtronic:mycarelink_smart_model_25000:-:*:*:*:*:*:*:*","type":"library"}]}

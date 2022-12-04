@@ -1,0 +1,4 @@
+CVE ID,CPE,cpeName,CVSS Version,Score,Severity
+CVE-2020-25183,"['cpe:2.3:o:medtronic:mycarelink_smart_model_25000_firmware:*:*:*:*:*:*:*:*', 'cpe:2.3:h:medtronic:mycarelink_smart_model_25000:-:*:*:*:*:*:*:*']","['mycarelink_smart_model_25000_firmware', 'mycarelink_smart_model_25000']",V31,8.8,HIGH
+CVE-2020-25187,"['cpe:2.3:o:medtronic:mycarelink_smart_model_25000_firmware:*:*:*:*:*:*:*:*', 'cpe:2.3:h:medtronic:mycarelink_smart_model_25000:-:*:*:*:*:*:*:*']","['mycarelink_smart_model_25000_firmware', 'mycarelink_smart_model_25000']",V31,9.8,CRITICAL
+CVE-2020-27252,"['cpe:2.3:o:medtronic:mycarelink_smart_model_25000_firmware:*:*:*:*:*:*:*:*', 'cpe:2.3:h:medtronic:mycarelink_smart_model_25000:-:*:*:*:*:*:*:*']","['mycarelink_smart_model_25000_firmware', 'mycarelink_smart_model_25000']",V31,8.1,HIGH
