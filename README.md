@@ -20,7 +20,11 @@ There are x files available here and the main file that the manufacturer needs t
 
 - Run python3 dependency-track.py -p ‘product_name’ -m ‘manufacturer_name’
 - Example: python3 dependency-track.py -p ‘Plum A+’ -m ‘Hospira’
-- The program would save a report (csv) file under the current directory you are using
+
+
+## Results <a name="results"></a>
+
+The program would save a report (csv) file and manufacturer name (manufacturer.txt) under the current directory you are using
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
