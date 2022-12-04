@@ -12,7 +12,7 @@
 Our project is motivated by the Johns Hopkins University MSSI program Capstone Project requirement. We aim to know the state of medical devices available on third-party markets as it relates to:
 - Medical Device Manufacturer exposure to use outside of the medical context (i.e., a security researcher may obtain a device and perform unbounded analysis)
 - The security posture of a hospital or clinic that obtains a medical device with known vulnerabilities
-The potential users/manufacturers would enter their manufacturer names and specific product names and our program would search the specific and currently available products given such inputs, and analyze the total available on sale products numbers. Additionally, we use NVD API to concern and output potential numbers and descriptions of vulnerabilities for such products given the manufacturer names. Finally, the program utilizes CyclondDX to create the SBOM file and dependency track tool to visualize the final risk profile provided by OWASP.
+The potential users/manufacturers would enter their manufacturer names and specific product names and our program would search the specific and currently available products given such inputs, and analyze the total available on sale products numbers. Additionally, we use NVD API to concern and output potential numbers and descriptions of vulnerabilities for such products given the manufacturer names. Finally, the program utilizes CyclondDX to create the SBOM file and Dependency Track tool to visualize the final risk profile provided by OWASP.
 
 ## File Description <a name="files"></a>
 There are x files available here and the main file that the manufacturer needs to run is ‘dependency-track.py’
@@ -27,12 +27,14 @@ Step 2: NVD API vulnerability lookup
 - pip3 install requests
 - Run python3 NVD_lookup.py
 
-Step 3: import to Dependency Track
+Step 3: SBOM file imported to Dependency Track
 
 
 ## Results <a name="results"></a>
 
 The program would save a report (csv) file and manufacturer name (manufacturer.txt) under the current directory you are using
+- Web Crawler Result: product_list.csv file, manufacturer.txt
+- NVD Lookup Result: output.csv, output.json
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
