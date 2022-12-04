@@ -27,7 +27,10 @@ Step 2: NVD API vulnerability lookup
 - pip3 install requests
 - Run python3 NVD_lookup.py
 
-Step 3: SBOM file imported to Dependency Track
+Step 3: Convert NVD lookup file to CycloneDX SBOM file
+- syft convert <"NVD lookup JSON file Name"> -o cyclonedx-json=<"SBOM JSON file Name">
+
+Step 4: SBOM file imported to Dependency Track
 
 
 ## Results <a name="results"></a>
@@ -35,6 +38,7 @@ Step 3: SBOM file imported to Dependency Track
 The program would save a report (csv) file and manufacturer name (manufacturer.txt) under the current directory you are using
 - Web Crawler Result: product_list.csv file, manufacturer.txt
 - NVD Lookup Result: output.csv, output.json
+- SBOM Result: bom.json
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
