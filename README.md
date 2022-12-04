@@ -28,6 +28,8 @@ Step 2: NVD API vulnerability lookup
 - Run python3 NVD_lookup.py
 
 Step 3: Convert NVD lookup file to CycloneDX SBOM file
+- brew tap anchore/syft
+- brew install syft
 - syft convert <"NVD lookup JSON file Name"> -o cyclonedx-json=<"SBOM JSON file Name">
 
 Step 4: SBOM file imported to Dependency Track
