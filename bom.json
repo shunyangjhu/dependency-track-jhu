@@ -1,0 +1,329 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:0c6b1630-f6b1-4c70-8aa1-11e629247392",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-12-02T17:31:47-05:00",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "f85d28901d055007",
+      "type": "library",
+      "name": "carelink_2090_programmer",
+      "cpe": "cpe:2.3:h:medtronic:carelink_2090_programmer:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d843b489fc581321",
+      "type": "library",
+      "name": "carelink_2090_programmer_firmware",
+      "cpe": "cpe:2.3:o:medtronic:carelink_2090_programmer_firmware:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ff54f95ac31558a7",
+      "type": "library",
+      "name": "medtronic:2090_carelink_programmer",
+      "cpe": "cpe:2.3:h:medtronic:2090_carelink_programmer:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b5c806d95a3ff306",
+      "type": "library",
+      "name": "medtronic:2090_carelink_programmer_firmware",
+      "cpe": "cpe:2.3:o:medtronic:2090_carelink_programmer_firmware:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9ce564caab8c972f",
+      "type": "library",
+      "name": "medtronic:24950_mycarelink_monitor",
+      "cpe": "cpe:2.3:h:medtronic:24950_mycarelink_monitor:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "db14e3b656cef290",
+      "type": "library",
+      "name": "medtronic:24950_mycarelink_monitor_firmware",
+      "cpe": "cpe:2.3:o:medtronic:24950_mycarelink_monitor_firmware:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "34e50cb7fdf7eaed",
+      "type": "library",
+      "name": "medtronicdiabetes:508_minimed_insulin_pump",
+      "cpe": "cpe:2.3:h:medtronicdiabetes:508_minimed_insulin_pump:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4984c324f9b8669d",
+      "type": "library",
+      "name": "medtronicdiabetes:508_minimed_insulin_pump_firmware",
+      "cpe": "cpe:2.3:o:medtronicdiabetes:508_minimed_insulin_pump_firmware:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6396e22bd66dab14",
+      "type": "library",
+      "name": "minimed_508",
+      "cpe": "cpe:2.3:h:medtronic:minimed_508:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2a3b62692cfb0bd",
+      "type": "library",
+      "name": "minimed_508_firmware",
+      "cpe": "cpe:2.3:o:medtronic:minimed_508_firmware:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bd3443ea4c481dfb",
+      "type": "library",
+      "name": "minimed_paradigm_revel_mmt-523k",
+      "cpe": "cpe:2.3:h:medtronic:minimed_paradigm_revel_mmt-523k:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1afe98aeae8790da",
+      "type": "library",
+      "name": "minimed_paradigm_revel_mmt-523k_firmware",
+      "cpe": "cpe:2.3:o:medtronic:minimed_paradigm_revel_mmt-523k_firmware:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "795b2244ce222e42",
+      "type": "library",
+      "name": "mycarelink_24952_patient_monitor",
+      "cpe": "cpe:2.3:h:medtronic:mycarelink_24952_patient_monitor:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a327a68ec82ede44",
+      "type": "library",
+      "name": "mycarelink_24952_patient_monitor_firmware",
+      "cpe": "cpe:2.3:o:medtronic:mycarelink_24952_patient_monitor_firmware:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "560b1fdc2ba807d",
+      "type": "library",
+      "name": "mycarelink_monitor",
+      "cpe": "cpe:2.3:h:medtronic:mycarelink_monitor:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "647c3d7317d9afc6",
+      "type": "library",
+      "name": "mycarelink_monitor_24950",
+      "cpe": "cpe:2.3:h:medtronic:mycarelink_monitor_24950:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e832f8143e612ae9",
+      "type": "library",
+      "name": "mycarelink_monitor_24950_firmware",
+      "cpe": "cpe:2.3:o:medtronic:mycarelink_monitor_24950_firmware:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "cd04de1d3d56d699",
+      "type": "library",
+      "name": "mycarelink_monitor_firmware:24950",
+      "cpe": "cpe:2.3:o:medtronic:mycarelink_monitor_firmware:24950:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4c029b93fba010a9",
+      "type": "library",
+      "name": "mycarelink_smart_model_25000",
+      "cpe": "cpe:2.3:h:medtronic:mycarelink_smart_model_25000:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7f29bb02893a425c",
+      "type": "library",
+      "name": "mycarelink_smart_model_25000_firmware",
+      "cpe": "cpe:2.3:o:medtronic:mycarelink_smart_model_25000_firmware:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4f229266016dd8b6",
+      "type": "library",
+      "name": "n\\'vision_8840",
+      "cpe": "cpe:2.3:h:medtronic:n\\'vision_8840:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "437adbede12d98c8",
+      "type": "library",
+      "name": "n\\'vision_8840_firmware",
+      "cpe": "cpe:2.3:o:medtronic:n\\'vision_8840_firmware:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7ee87b3c93d5b343",
+      "type": "library",
+      "name": "paradigm_wireless_insulin_pump:512",
+      "cpe": "cpe:2.3:h:medtronic:paradigm_wireless_insulin_pump:512:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b70d9903343b2af4",
+      "type": "library",
+      "name": "valleylab_exchange_client",
+      "cpe": "cpe:2.3:a:medtronic:valleylab_exchange_client:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "17e6e532e76536e6",
+      "type": "library",
+      "name": "valleylab_ft10_energy_platform",
+      "cpe": "cpe:2.3:h:medtronic:valleylab_ft10_energy_platform:-:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dfafff250d5c8446",
+      "type": "library",
+      "name": "valleylab_ft10_energy_platform_firmware:2.0.3",
+      "cpe": "cpe:2.3:o:medtronic:valleylab_ft10_energy_platform_firmware:2.0.3:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    }
+  ]
+}
