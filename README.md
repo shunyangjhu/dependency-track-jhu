@@ -16,21 +16,21 @@ The potential users/manufacturers would enter their manufacturer names and speci
 
 ## File Description <a name="files"></a>
 There are x files available here and the main file that the manufacturer needs to run is ‘dependency-track.py’
-- Git clone our project using $ gh repo clone shunyangjhu/dependency-track-jhu
+- Git clone our project using `gh repo clone shunyangjhu/dependency-track-jhu`
 
 Step 1: Web crawler
-- Run python3 dependency-track.py -p ‘product_name’ -m ‘manufacturer_name’
-- Example: python3 dependency-track.py -p ‘Plum A+’ -m ‘Hospira’
+- `python3 dependency-track.py -p "product_name" -m "manufacturer_name"`
+- Example: `python3 dependency-track.py -p "Plum A+" -m "Hospira"`
 
 Step 2: NVD API vulnerability lookup
-- pip3 install nvdlib
-- pip3 install requests
-- Run python3 NVD_lookup.py
+- `pip3 install nvdlib`
+- `pip3 install requests`
+- `python3 NVD_lookup.py`
 
 Step 3: Convert NVD lookup file to CycloneDX SBOM file
-- brew tap anchore/syft
-- brew install syft
-- syft convert <"NVD lookup JSON file Name"> -o cyclonedx-json=<"SBOM JSON file Name">
+- `brew tap anchore/syft`
+- `brew install syft`
+- `syft convert "NVD lookup JSON file Name" -o cyclonedx-json="SBOM JSON file Name"`
 
 Step 4: SBOM file imported to Dependency Track
 
