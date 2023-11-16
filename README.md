@@ -12,6 +12,7 @@
 Our project is motivated by the Johns Hopkins University MSSI program Capstone Project requirement. We aim to know the state of medical devices available on third-party markets as it relates to:
 - Medical Device Manufacturer exposure to use outside of the medical context (i.e., a security researcher may obtain a device and perform unbounded analysis)
 - The security posture of a hospital or clinic that obtains a medical device with known vulnerabilities
+  
 The potential users/manufacturers would enter their manufacturer names and specific product names and our program would search the specific and currently available products given such inputs, and analyze the total available on sale products numbers. Additionally, we use NVD API to concern and output potential numbers and descriptions of vulnerabilities for such products given the manufacturer names. Finally, the program utilizes syft to create the CycloneDX SBOM file and Dependency Track tool to visualize the final risk profile provided by OWASP.
 
 ## File Description <a name="files"></a>
